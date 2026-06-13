@@ -16,7 +16,7 @@ g++ -std=c++14 -Wall Gym_Tracker/*.cpp -o gym_tracker
 ./gym_tracker
 ```
 
-##Expected / Sample Output
+## Expected / Sample Output
 Upon running the program, the user is greeted with a continuous menu:
 
 =================================
