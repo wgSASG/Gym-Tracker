@@ -10,3 +10,27 @@ To compile and run this project, open your terminal, ensure you are in the root 
 **1. Compile the code (Strictly C++14 with all warnings):**
 ```bash
 g++ -std=c++14 -Wall Gym_Tracker/*.cpp -o gym_tracker
+```
+**2. Run the application:**
+```bash
+./gym_tracker
+```
+
+##Expected / Sample Output
+Upon running the program, the user is greeted with a continuous menu:
+
+=================================
+       GYM TRACKER SYSTEM        
+=================================
+A - Log new session
+B - View full history
+C - Calculate total time of ALL sessions (Test + operator)
+X - Exit
+Choose an option:
+
+When logging an exercise and displaying the history, the polymorphic display will show formatted data specific to the exercise type:
+
+--- Strength Exercise ---
+ID: 1 | Name: Weights
+Focus: U | Sets: 4 | Reps: 10 | Weight: 60 kg
+Duration: 45 min | Effort: 8/10
