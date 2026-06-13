@@ -33,7 +33,9 @@ Choose an option:
 
 When logging an exercise and displaying the history, the polymorphic display will show formatted data specific to the exercise type:
 
+```text
 --- Strength Exercise ---
 ID: 1 | Name: Weights
 Focus: U | Sets: 4 | Reps: 10 | Weight: 60 kg
 Duration: 45 min | Effort: 8/10
+```
