@@ -17,8 +17,10 @@ g++ -std=c++14 -Wall Gym_Tracker/*.cpp -o gym_tracker
 ```
 
 ## Expected / Sample Output
+
 Upon running the program, the user is greeted with a continuous menu:
 
+```text
 =================================
        GYM TRACKER SYSTEM        
 =================================
@@ -27,6 +29,7 @@ B - View full history
 C - Calculate total time of ALL sessions (Test + operator)
 X - Exit
 Choose an option:
+```
 
 When logging an exercise and displaying the history, the polymorphic display will show formatted data specific to the exercise type:
 
